@@ -1,0 +1,22 @@
+{
+  "name": "atom-file-sync",
+  "author": "begend",
+  "main": "./lib/uss-file-sync",
+  "version": "0.5.0",
+  "description": "Atom package to sync files to server",
+  "keywords": [
+    "TELUS",
+    "USS File Sync"
+  ],
+  "activationCommands": [
+    {
+      "atom-workspace": "uss-file-sync:uss-sync-all"
+    }
+  ],
+  "repository": "https://github.com/xingbo828/atom.uss-file-sync.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
